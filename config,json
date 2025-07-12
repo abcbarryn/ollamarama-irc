@@ -1,0 +1,33 @@
+{   
+    "ollama":
+    {
+        "api_url": "http://localhost:11434/api/chat",
+        "options":
+        {
+            "temperature": 0.8,
+            "top_p": 0.7,
+            "repeat_penalty": 1.0
+        },
+        "models":
+        {
+            "llama3.2": "llama3.2",
+            "qwen3": "qwen3"
+               
+        },
+        "default_model": "qwen3",
+        "prompt": ["You are ", ". Speak in the first person and never break character.  Keep your responses brief and to the point."],
+        "personality": "a helpful assistant named Ollamarama, who runs on Ollama"
+    },
+    "irc":
+    {
+        
+        "channel": "#ollamarama",
+        "nickname": "ollamarama",
+        "password": null,
+        "server": "irc.SERVER.TLD",
+        "admins":
+        [
+            "admin_name"
+        ]
+    }
+}
